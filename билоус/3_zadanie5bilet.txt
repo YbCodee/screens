@@ -1,0 +1,17 @@
+1)создать репозиторий на github(public)
+2)клонировать репозиторий для работы дальше
+	git clone "ссылка на реп"
+3) создать ветки
+	git checkout -b develop
+	git checkout master
+	git checkout -b hotfix
+4) сделать любой файл и закоммить
+	git add
+	git commit -m "fix critical bug"
+5) мерж и теги 
+пушим на гит хаб:
+	git push --all
+	git push --tags
+Либо просто создать реп, через кнопку branch создать develop, hotfix
+редактировать прямо в браузере
+коммита и merge - все мышкой просто
